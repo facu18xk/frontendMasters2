@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/styles-dist.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section class="card" >
+      <picture class="card--picture">
+        <div class="card--color"></div>
+        <source srcset="images/image-header-mobile.jpg" media="(max-width:1200px)">
+        <source srcset="images/image-header-desktop.jpg" media="(min-width:1200px)">
+        <img class="card--header" src="images/image-header-mobile.jpg" alt="people talking">
+      </picture>
+      <div class="cardt">
+      <h1 class="card--title" > Get <span class="h1--span" >insights</span> that help your business grow.</h1>
+      <p class="card--p" >Discover the benefits of data analytics and make better decisions regarding revenue, customer
+        experience, and overall efficiency.</p>
+      <div class="container">
+        <div class="stas">
+          <h2 class="stas--title">10k+<br><span class="title-span" >companies</span></h2>
+        </div>
+        <div class="stas" >
+          <h2 class="stas--title">314 <br><span class="title-span" >templates</span></h2>
+        </div>
+        <div class="stas" >
+          <h2 class="stas--title" >12m+<br><span class="title-span" >queries</span></h2>
+        </div>
+      </div>
+    </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
